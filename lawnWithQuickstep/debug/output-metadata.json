@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "app.lawnchair.debug",
+  "variantName": "lawnWithQuickstepDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 12010005,
+      "versionName": "12.1.0 Dev (301b7be)",
+      "outputFile": "Lawnchair 12.1.0 Dev (301b7be).apk"
+    }
+  ],
+  "elementType": "File"
+}
