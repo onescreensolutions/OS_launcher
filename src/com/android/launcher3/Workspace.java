@@ -694,6 +694,7 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
             3, 1
         );
         calenderparams.rightMargin=450;
+        calenderparams.canReorder=false;
 //        calenderparams.topMargin=30;
 //        firstPage.addViewToCellLayout(calander,1,  1, calenderparams, true);
 //
@@ -712,12 +713,11 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
             x1, y1,
             3, 1
         );
-
+        calenderparams1.canReorder=false;
 
         View view = LayoutInflater.from(getContext()).inflate(R.layout.mywidget, firstPage, false);
         firstPage.addViewToCellLayout(view, 1,1,calenderparams,true);
         DragOptions options = new DragOptions();
-        view.setClickable(true);
 
 
 //        View docstext=findViewById(R.id.docstext);
